@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %} HOME {% endblock title %}
+
+{% block content %}
+
+<main>
+    <div class="text">
+        <h1>Welcome to the World's No. 1 News Website</h1>
+        <h3>Bringing the world hottest news to your Doorstep</h3>
+        <br>
+        <a href="{% url 'article_list' %}" class="btn btn-primary">Read News</a>
+        <!-- <a href="{% url 'article_list' %}" class="btn btn-primary">Read News</a> -->
+    </div>
+</main>
+
+{% endblock content %}

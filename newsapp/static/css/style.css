@@ -1,0 +1,59 @@
+.lin a {
+    text-decoration: none !important;
+    color:white;
+}
+
+header nav ul li a {
+    /* position: relative; */
+    z-index: 11;
+
+}
+
+.navbar {
+    position: relative;
+    z-index: 11;
+}
+
+main {
+    background-image: url("/static/img/news.jpg ");
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+    /* background-color: bisque; */
+}
+
+/* main::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+} */
+
+main::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+main .text {
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.mar {
+    margin-right: 100px !important;
+}
